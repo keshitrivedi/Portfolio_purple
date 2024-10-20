@@ -1,0 +1,231 @@
+div {
+    font-family: "Roboto", sans-serif;
+    
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+body {
+    margin-top: 60px;
+}
+.cu {
+    font-family: "Pinyon Script", cursive;
+}
+.bt2 {
+    color: rgb(74, 0, 158);
+    font-size:100px;
+}
+.bt {
+    font-size:100px;
+}
+.bigdiv {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.introdiv {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(205, 197, 212);
+    border-radius: 20px;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+}
+.me {
+    height: 300px;
+    border-radius: 20px;
+}
+.descdiv {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 15px;
+    border-radius: 20px;
+    height: 270px;
+    margin-left: 20px;
+}
+.hi,
+.main {
+    text-align: left;
+    font-size: 25px;
+    font-weight: 700;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    border-radius: 20px;
+    background-color: rgb(205, 197, 212);
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    align-items: center;
+}
+.extra {
+    text-align: left;
+    margin-top: 30px;
+    color: gray;
+}
+.extra2 {
+    text-align: left;
+    margin-top: 10px;
+    color: gray;
+}
+.fancy {
+    color: rgb(74, 0, 158);
+}
+.qualifications {
+    display: flex;
+    width: 1200px;
+    padding: 15px;
+    background-color: rgb(205, 197, 212);
+    border-radius: 20px;
+    align-items: center;
+    margin: 30px;
+    justify-content: space-between;
+}
+.education {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: white;
+    border-radius: 20px;
+    height: 200px;
+    flex: 1;
+}
+.experience {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: white;
+    border-radius: 20px;
+    height: 200px;
+    margin-left: 20px;
+}
+.h1 {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+}
+.h2 {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 15px;
+}
+.schl {
+    display: flex;
+    text-align: left;
+    align-items: center;
+}
+.logo-img {
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+    border-radius: 40px;
+}
+.l {
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+}
+.li, .li-p {
+    font-weight: 500;
+    transition: text-decoration 0.2s;
+    text-decoration: none;
+    color: white;
+}
+.li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.li-p:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.li-p {
+    color: rgb(74, 0, 158);
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(74, 0, 158);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.head-t {
+    font-weight: 500;
+    color: rgb(205, 197, 212);
+}
+.footer {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(74, 0, 158);
+    color: white;
+    border-radius: 20px;
+}
+.socials {
+    display: flex;
+    flex-direction: column;
+    align-items: bottom;
+    text-align: left;
+}
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: bottom;
+    text-align: right;
+}
+.media {
+    display: flex;
+    align-items: center;
+}
+.ss-link {
+    text-decoration: none;
+    color: white;
+}
+.ss-pic {
+    height: 35px;
+    width: 35px;
+    object-fit: cover;
+    border-radius: 18px;
+}
+.s-link {
+    margin-left: 10px;
+}
+.s-title-1 {
+    font-weight: 500;
+    font-size: 18px;
+}
+.s-title-2 {
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 18px;
+}
+.cat-pic {
+    height: 80px;
+}
+.cursive {
+    font-family: "Pinyon Script", cursive;
+    font-weight: lighter;
+}
